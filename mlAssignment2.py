@@ -12,7 +12,7 @@ import os
 # Robert wrote the Question, Node and leaf classes and also the best_split and the build_tree methods
 # Both wrote the main method which imports the data, runs both classifiers ten times and prints the two trees at the end
 
-# main method written by both Robert and Caireann
+# main method written by both Robert and Caireann 
 def main():
     # import the hazelnut.csv file using panda
     df = pd.read_csv('mlAssignment2Dataset.csv', header=0, delimiter=",")
